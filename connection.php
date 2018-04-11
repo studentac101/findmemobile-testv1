@@ -1,8 +1,8 @@
 <?php
-$servername = "127.0.0.1";
-$username = "root";
-$password = "";
-$dbname = "findmeapp";
+$servername = "206.189.35.125:8082";
+$username = "pftkgwykbk";
+$password = "PTmfa3paTg";
+$dbname = "pftkgwykbk";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password,$dbname);
