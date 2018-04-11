@@ -1,5 +1,5 @@
 <?php
-$servername = "206.189.35.125:8082";
+$servername = "https://206.189.35.125:8082/?username=pftkgwykbk&db=pftkgwykbk";
 $username = "pftkgwykbk";
 $password = "PTmfa3paTg";
 $dbname = "pftkgwykbk";
