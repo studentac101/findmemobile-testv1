@@ -12,8 +12,13 @@
 		
 	if($result->{"num_rows"}!=0){
 	 while( $row[] = $result->fetch_assoc())
+<<<<<<< HEAD
         $data=wp_json_encode($row);
 	  echo $data;
+=======
+        $data[]=array_map('utf8_encode', $row);
+	  echo json_encode($data);
+>>>>>>> master
 	}else{
 		echo "failed";
 	}
