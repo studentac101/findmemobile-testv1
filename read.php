@@ -16,9 +16,10 @@
         $data=utf8_encode($row);
 		
 	 }
-	  echo $data;
+	
+	
 	  echo json_encode($data);
-
+		 var_dump($row);
   
 
 	}else{
