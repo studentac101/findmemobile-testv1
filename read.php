@@ -11,11 +11,11 @@
 	$data='eric';
 		
 	if($result->{"num_rows"}!=0){
-	 while( $row[] = $result->fetch_assoc())
+	 while( $row[] = $result->fetch_assoc()){
 		 
-        $data=json_encode(utf8_encode($row));
-	
-	  echo $data;
+        $data=utf8_encode($row);
+	 }
+	  echo json_encode($data);
 	}else{
 		echo "failed";
 	}
