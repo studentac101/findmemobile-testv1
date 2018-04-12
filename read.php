@@ -14,7 +14,7 @@
 	 while( $row[] = $result->fetch_assoc())
 
         $data=utf8_encode($row);
-	  echo json_encode($data_;
+	  echo json_encode($data);
 
   
 
