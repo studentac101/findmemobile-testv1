@@ -13,6 +13,7 @@
 	if($result->{"num_rows"}!=0){
 	 while( $row[] = $result->fetch_assoc())
         $data=json_encode($row);
+	echo "<script>console.log( 'Debug Objects: " . $data . "' );</script>";
 	  echo $data;
 	}else{
 		echo "failed";
